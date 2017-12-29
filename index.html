@@ -11,141 +11,173 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Link to CSS page -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- Link JavaScript Page -->
  <script src="javascript.js"></script>
+
+ <!-- Icon on tab  -->
+ <link rel="shortcut icon" type="icon" href="./images/logo.png" />
+
+ <!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
 
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <img src="./images/logo.png" href="index.html" width="70px" height="70px">
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-      </ul>
+      <div id="titles">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">LANGUAGES</a></li>
+          <li><a href="#portfolio">WHY</a></li>
+          <li><a href="#pricing">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
 
 <div class="jumbotron text-center">
-  <h1>Perla Showell</h1>
-  <p>Full-Stack Web Developer</p>
+  <div class="container-fluid">
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style=" color: #fcfbed">Perla Showell</h1>
+    <p style="color: #fcfbed">Full-Stack Web Developer</p>
+  </div>
+  <video id="video-background" loop muted autoplay src="./images/Space.mp4">
+  </video>
+  </div>
 </div>
-
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>About Company Page</h2><br>
-      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <h2>About Me</h2>
+      <h4>My name Perla Showell. I am from the Washington D.C. area and I am a full-stack developer. As a developer, I truly enjoy that I can express my creativity through the technical skill of coding. I have a Bachelor of Science in Environmental Science from George Mason University and I am a certified Full-Stack Developer graduate from George Washington University. I am available to discuss freelance projects and am interested in working on innovative projects.</h4>
+      <br>
+      <button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-signal logo"></span>
-    </div>
+    <!-- <div class="col-sm-4"> -->
+      <img id="Perla" src="./images/ps.jpg" alt="Perla Showell">
+    <!-- </div> -->
   </div>
 </div>
 
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      <span><img id="gw" src="./images/gw.jpg" alt="gw bootcamp"><span>
+      <span><img id="gmu" src="./images/gmu.jpg" alt="gmu"><span>
     </div>
     <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h2>SOFTWARE DEVELOPMENT BACKGROUND</h2>
+      <h4><strong>EXPERIENCE:</strong> I possess a strong leadership background from my experience of serving as the Chapter President of my sororority, while completing my senior year in college. That experience served me when I was once again voted to be Project Manager of my "Rate Your Roommate" app idea (listed below) by my cohort.</hr>
+      <br>
+      <br>
+      <h4><strong>EDUCATION:</strong> I completed the 2017-2018 rigorous, George Washington University Coding Bootcamp. Through a strong work ethic, focus, drive, and dedication I completely immersed myself into the full-time program and came out a well-versed Full-Stack Web Developer. I also graduated with a Bachelor of Science degree in Environmental Science from George Mason University. (May 2014)</h4>
     </div>
   </div>
 </div>
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2>LANGUAGES & SOFTWARE I SPECIALIZE IN</h2>
+  <h4>What I offer</h4>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/mongo.png" class="logo-small" alt="mongodb"></span>
+      <h4>MONGODB</h4>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/trello.png" class="logo-small" alt="trello"></span>
+      <h4>TRELLO</h4>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/heroku.png" class="logo small" alt="heroku"></span>
+      <h4>HEROKU</h4>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/mysql.png" class="logo-small" alt="mysql"></span>
+      <h4>MSQL</h4>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/node.png" class="logo-small" alt="node.js"></span>
+      <h4>JQUERY</h4>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <span><img src="./images/database.png" class="logo-small" alt="database"></span>
+      <h4>DATABASE</h4>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span><img src="./images/node.png" class="logo-small" alt="node.js"></span>
+      <h4>NODE</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/css.png" class="logo-small" alt="css"></span>
+      <h4>CSS</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/react.png" class="logo-small" alt="react"></span>
+      <h4>REACT</h4>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span><img src="./images/html.png" class="logo-small" alt="html"></span>
+      <h4>HTML</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/java.png" class="logo-small" alt="java"></span>
+      <h4>JAVA</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/api.png" class="logo-small" alt="api"></span>
+      <h4>APIs</h4>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span><img src="./images/firebase.png" class="logo-small" alt="firebase"></span>
+      <h4>FIREBASE</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/github.png" class="logo-small" alt="github"></span>
+      <h4>GITHUB</h4>
+    </div>
+    <div class="col-sm-4">
+      <span><img src="./images/javascript.png" class="logo-small" alt="javascript"></span>
+      <h4>JAVASCRIPT</h4>
     </div>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
-      </div>
-    </div>
-  </div><br>
 
-  <h2>What our customers say</h2>
+  <h2>Here are a few reasons why I am your developer</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -157,13 +189,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h4>I'm self motivated,</h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        <h4>innovative,</h4>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h4>and I love what I do.</h4>
       </div>
     </div>
 
@@ -182,64 +214,46 @@
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid">
   <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
+    <h2>Applications</h2>
+    <h4>Featured projects below...</h4>
   </div>
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Basic</h1>
+        <h1>On Wednesdays We...</h1>
         </div>
         <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <img src="./images/wednesdays.png" class="app1" alt="Wednesdays">
         </div>
         <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <a href="file:///Users/perlashowell/Apps/Group2/index.html"><button class="btn btn-lg">Click Here</button></a>
         </div>
       </div>
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Pro</h1>
+          <h1>Bored Buddy</h1>
         </div>
         <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <img src="./images/boredbuddy.png" class="app2" alt="BoredBuddy">
         </div>
         <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <a href="https://arcane-springs-68819.herokuapp.com/"><button class="btn btn-lg">Click Here</button><a>
         </div>
       </div>
     </div>
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-          <h1>Premium</h1>
+          <h1>Rate Your Roommate</h1>
         </div>
         <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
+          <img src="./images/ryr.jpg" class="app3" alt="RateYourRoommate">
         </div>
         <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
+          <a href="https://rateyourroommate.herokuapp.com/"><button class="btn btn-lg">Click Here</button><a>
         </div>
       </div>
     </div>
@@ -251,23 +265,24 @@
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p>Contact me and I'll get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Virginia, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-phone"></span> (703) 608-2658</p>
       <p><span class="glyphicon glyphicon-envelope"></span> perlashowell@gmail.com</p>
-      <p><span class="glyphicon glyphicon-pencil"></span> Please subscribe to my website:
-      <form>
+      <!-- <p><span class="glyphicon glyphicon-pencil"></span> Please subscribe to my website: -->
+      <!-- <form>
         <div class="input-group">
           <input type="email" class="form-control" size="50" placeholder="Email Address" required>
           <div class="input-group-btn">
             <button type="button" class="btn btn-danger">Subscribe</button>
           </div>
         </div>
-      </form>
+      </form> -->
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
+          <form method="POST" action="http://formspree.io/perlashowell@gmail.com">
           <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
         </div>
         <div class="col-sm-6 form-group">
@@ -277,15 +292,16 @@
       <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
       <div class="row">
         <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+          <button class="btn btn-default pull-right" id="button" type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
   </div>
 </div>
-<br>
+
 <!-- Add Google Maps -->
-  <div class="map">
+  <div id="map" class="container-fluid text-center">
     <iframe width="600" height="450" frameborder="0" style="border:0"
     src="https://www.google.com/maps/embed/v1/view?zoom=11&center=38.9072,-77.0369&key=AIzaSyAxEAGTh8ZVse7CWe5oxC7nHELVGWXPKro"allowfullscreen></iframe>
   </div>
@@ -294,45 +310,8 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+  <p>Back to Top</p>
 </footer>
-
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
-</script>
 
 </body>
 </html>
