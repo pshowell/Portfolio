@@ -21,9 +21,6 @@
  <!-- Font -->
 <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet">
 
-<!-- Formspree -->
-
-<meta name="referrer" content="origin">
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -42,9 +39,9 @@
       <div id="titles">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#services">LANGUAGES</a></li>
-          <li><a href="#portfolio">WHY</a></li>
-          <li><a href="#pricing">PORTFOLIO</a></li>
+          <li><a href="#languages">LANGUAGES</a></li>
+          <li><a href="#why">WHY</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -285,19 +282,19 @@
     <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <form method="POST" action="https://formspree.io/perlashowell@gmail.com">
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-
-              <label for="email">Email:</label>
-              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-
-              <label for="message">Suggestion:</label>
-              <textarea id="message" name="message" required="Where do you like to hangout? The more details you share, the more details we can post!"></textarea>
-              <br>
-              <input type="hidden" name="_next" value="https://pshowell.github.io/Portfolio" />
-            <input type="submit" value="Send">
-         </form>
+          <form method="POST" action="http://formspree.io/perlashowell@gmail.com">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <input type="hidden" name="_next" value="https://pshowell.github.io/Portfolio/"/>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" id="button" type="submit">Submit</button>
+          </form>
         </div>
       </div>
     </div>
